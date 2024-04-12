@@ -30,6 +30,16 @@ region=[current region]
 ./execute_sfn.sh $sfn_arn $profile $region
 ```
 
+### Lambda's input
+
+Any JSON object, ie:
+```json
+{
+  "key1": "value1",
+  "key2": "value2"
+}
+```
+
 ## Result
 
 ![trace overview](trace_overview.png)
